@@ -6,7 +6,7 @@ import { ReactNode } from "react";
 interface MotionWrapperProps {
   children: ReactNode;
   className?: string;
-  delay?: number;
+  delay?: number; 
   direction?: "up" | "down" | "left" | "right";
   duration?: number;
 }
